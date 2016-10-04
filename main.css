@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.save-contact,
+.contact-list{
+    background: #FCF6E4;
+    border : 1px solid #F7D9EA;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+.save-contact form input{
+    font-size: 1.3em;
+    padding: 10px 20px;
+    margin: 15px 0px;
+    width:100%;
+}
+.save-contact form input[type="submit"]{
+    background: #7DC1E0;
+    border: 2px dashed #448E9E; 
+    color: #FFFFFF; 
+    width:100%;
+}
+.contact-list .contact-list-item{
+    background: #FFFFFF;
+    border:1px solid #61B7C9;
+    margin-top:20px;
+}
